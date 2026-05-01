@@ -19,14 +19,15 @@ html {
 }
 
 body {
-    background-color: var(--Escuro);
+    background: url(img/fundo\ portifolio.jpg);
+    background-size: cover;
     color: var(--Claro);
 }
 
 .navegacao {
     top: 0;
     position: fixed;
-    background: rgba(15, 23, 42, 0.8);
+    background: transparent;
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
