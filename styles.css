@@ -19,8 +19,8 @@ html {
 }
 
 body {
-    background: url(img/fundo\ portifolio.jpg);
-    background-size: cover;
+    background: url(img/milad-fakurian-nY14Fs8pxT8-unsplash.jpg);
+    background-size: auto 100%;
     color: var(--Claro);
 }
 
@@ -186,7 +186,7 @@ h1 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 50px;
-    color: hsla(0, 60%, 73%, 1);
+    color: var(--Primaria);
 }
 
 .formulario-contatos {
@@ -215,17 +215,17 @@ h1 {
 }
 
 .campo-form:focus {
-    border-color: hsla(0, 87%, 66%, 1);
-    box-shadow: 0 0 10px hsla(0, 60%, 73%, 1);
+    border-color: transparent;
+    box-shadow: 10px 10px 10px rgba(79, 70, 229, 0.2);
 }
 
 .botao-form {
     color: var(--Claro);
-    background: hsla(0, 60%, 73%, 1);
-    background: linear-gradient(135deg, hsla(0, 60%, 73%, 1) 6%, hsla(0, 87%, 66%, 1) 45%);
-    background: -moz-linear-gradient(135deg, hsla(0, 60%, 73%, 1) 6%, hsla(0, 87%, 66%, 1) 45%);
-    background: -webkit-linear-gradient(135deg, hsla(0, 60%, 73%, 1) 6%, hsla(0, 87%, 66%, 1) 45%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E38F8F", endColorstr="#F45C5C", GradientType=1);
+    background: hsla(259, 73%, 43%, 1);
+    background: linear-gradient(135deg, hsla(259, 73%, 43%, 1) 31%, hsla(262, 41%, 47%, 1) 70%);
+    background: -moz-linear-gradient(135deg, hsla(259, 73%, 43%, 1) 31%, hsla(262, 41%, 47%, 1) 70%);
+    background: -webkit-linear-gradient(135deg, hsla(259, 73%, 43%, 1) 31%, hsla(262, 41%, 47%, 1) 70%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#501dbc", endColorstr="#6a46a8", GradientType=1);
     padding: 1rem 2rem;
     border: none;
     border-radius: 8px;
@@ -237,7 +237,7 @@ h1 {
 
 .botao-form:hover {
     transform: translateY(-4px);
-    box-shadow: 0 5px 15px hsla(0, 60%, 73%, 1);
+    box-shadow: 10px 10px 10px rgba(79, 70, 229, 0.2);
 }
 
 @keyframes flutuar {
